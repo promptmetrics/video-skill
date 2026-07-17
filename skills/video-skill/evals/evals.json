@@ -1,0 +1,54 @@
+{
+  "skill": "video-skill",
+  "description": "Triggering and functional evals for the video-skill skill (Kurzgesagt-style explainer video design package).",
+  "cases": [
+    {
+      "name": "obvious-trigger-explainer",
+      "prompt": "Make an explainer video about how rainbows form.",
+      "shouldTrigger": true,
+      "expected": "Skill loads; begins Phase 1 requirements gathering before writing any script."
+    },
+    {
+      "name": "paraphrase-trigger-script",
+      "prompt": "I need a script for a short video explaining compound interest.",
+      "shouldTrigger": true,
+      "expected": "Skill loads; treats the script request as the core deliverable, still confirms requirements first, then writes script.md and asks for approval."
+    },
+    {
+      "name": "paraphrase-trigger-storyboard",
+      "prompt": "Storyboard an educational video on the water cycle.",
+      "shouldTrigger": true,
+      "expected": "Skill loads; gathers requirements, writes the script, then produces a frame-level storyboard.md."
+    },
+    {
+      "name": "paraphrase-trigger-kurzgesagt",
+      "prompt": "Design a Kurzgesagt-style explainer for my startup's product.",
+      "shouldTrigger": true,
+      "expected": "Skill loads; begins Phase 1, applies the flat-geometric Kurzgesagt aesthetic in Phase 3."
+    },
+    {
+      "name": "non-trigger-blog",
+      "prompt": "Write a blog post about machine learning.",
+      "shouldTrigger": false,
+      "expected": "Skill does not load; this is a writing task, not an explainer video design task."
+    },
+    {
+      "name": "non-trigger-render",
+      "prompt": "Render a 3D scene in Blender.",
+      "shouldTrigger": false,
+      "expected": "Skill does not load; this is a 3D rendering task, and this skill does not render."
+    },
+    {
+      "name": "non-trigger-podcast",
+      "prompt": "Generate a podcast audio file from this transcript.",
+      "shouldTrigger": false,
+      "expected": "Skill does not load; this skill produces no audio and does no TTS."
+    },
+    {
+      "name": "non-trigger-tiktok",
+      "prompt": "Make a TikTok dance video.",
+      "shouldTrigger": false,
+      "expected": "Skill does not load; this is social short-form content, not an educational explainer design package."
+    }
+  ]
+}

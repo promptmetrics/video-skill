@@ -1,0 +1,17 @@
+{
+  "name": "promptmetrics-video",
+  "owner": { "name": "PromptMetrics" },
+  "description": "PromptMetrics video skill — plan Kurzgesagt-style educational explainer videos (script + storyboard + visual design spec).",
+  "plugins": [
+    {
+      "name": "promptmetrics-video",
+      "source": ".",
+      "description": "Educational explainer video design: script, storyboard, and visual design spec in a Kurzgesagt-style flat look.",
+      "homepage": "https://github.com/promptmetrics/video-skill",
+      "repository": "https://github.com/promptmetrics/video-skill",
+      "license": "MIT",
+      "keywords": ["video", "explainer", "storyboard", "script", "kurzgesagt", "design"],
+      "skills": ["./skills/video-skill"]
+    }
+  ]
+}

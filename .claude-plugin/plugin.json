@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "promptmetrics-video",
+  "version": "0.1.0",
+  "description": "Plan Kurzgesagt-style educational explainer videos: write the narration script, build a frame-level storyboard, and produce a visual design spec.",
+  "homepage": "https://github.com/promptmetrics/video-skill",
+  "repository": "https://github.com/promptmetrics/video-skill",
+  "author": { "name": "PromptMetrics", "url": "https://github.com/promptmetrics" },
+  "license": "MIT"
+}
