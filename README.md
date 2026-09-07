@@ -94,3 +94,7 @@ MIT — see `LICENSE`.
 ## Acknowledgments
 
 This skill adapts portions of the `educational-video-creator` skill from [`skindhu/skind-skills`](https://github.com/skindhu/skind-skills) (MIT, Copyright (c) 2026 `long_long_ago`). See `NOTICE.md`. The audio and Remotion render steps from the original were removed; this port focuses on script, storyboard, and visual design.
+
+---
+
+Built by [Izzy Aly](https://github.com/iiizzzyyy) at [PromptMetrics](https://github.com/promptmetrics).
